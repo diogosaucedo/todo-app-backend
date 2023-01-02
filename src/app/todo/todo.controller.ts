@@ -12,9 +12,9 @@ import { ParseUUIDPipe } from '@nestjs/common/pipes';
 import { ApiTags } from '@nestjs/swagger/dist';
 import { ApiOperation } from '@nestjs/swagger/dist/decorators/api-operation.decorator';
 import { ApiResponse } from '@nestjs/swagger/dist/decorators/api-response.decorator';
-import { BadRequestSwagger } from 'src/helpers/swagger/bad-request.swagger';
-import { NotFoundSwagger } from 'src/helpers/swagger/not-found.swagger';
 
+import { BadRequestSwagger } from '../../helpers/swagger/bad-request.swagger';
+import { NotFoundSwagger } from '../../helpers/swagger/not-found.swagger';
 import { CreateTodoDto } from './dto/create-todo.dto';
 import { UpdateTodoDto } from './dto/update-todo.dto';
 import { CreateTodoSwagger } from './swagger/create-todo.swagger';
